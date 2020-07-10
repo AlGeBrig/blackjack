@@ -10,6 +10,8 @@ class Card
     @suit = suit
  end
 
- 
+ def name_of_card
+    @value + @suit
+ end
 
 end
